@@ -18,6 +18,10 @@ To push the boundaries of accuracy, the project culminates in the implementation
 Each model is rigorously evaluated using 5-fold cross-validation to ensure robust and generalizable results. The primary performance metric is the Root Mean Squared Error (RMSE), which measures the average magnitude of prediction errors and is particularly sensitive to large, inaccurate predictions.
 As hypothesized, the results confirm a clear hierarchy of performance, with SVD++ emerging as the most accurate model. The final, trained SVD++ model is then serialized and saved to a file. This portable artifact is used to power a practical recommendation function that can take any user ID and generate a personalized, ranked list of top-N movie recommendations, completing the journey from raw data to a functional, intelligent system.
 
+--Dataset used:
+
+link- http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+
 --Technology Stack:
 
 Core Language: --Python 3
